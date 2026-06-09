@@ -1,0 +1,11 @@
+@model BuscaEndereco.Models.EnderecoModel
+
+<h2>Resultado</h2>
+
+<p>CEP: @Model.Cep</p>
+<p>Logradouro: @Model.Logradouro</p>
+<p>Bairro: @Model.Bairro</p>
+<p>Cidade: @Model.Cidade</p>
+<p>UF: @Model.UF</p>
+
+<a asp-action="Buscar">Nova busca</a>
